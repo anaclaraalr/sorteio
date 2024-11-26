@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(179, 176, 176);
+    color: white;
+}
+
+h1{
+    color: rgb(93, 216, 175);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+img{
+    width: 35px;
+    height: 35px;
+}
+
+button{
+    background-color: rgb(93, 216, 175); 
+}

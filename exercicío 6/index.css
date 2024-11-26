@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url(./calculadora3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

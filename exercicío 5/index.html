@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+        .item-tarefa { padding: 10px; margin: 5px; background-color: #f0f0f0; cursor: grab; }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <input type="text" id="novaTarefa" placeholder="Nova Tarefa">
+    <button   id="caixa"    onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    <div id="listaTarefas" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

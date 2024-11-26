@@ -1,0 +1,54 @@
+body{
+    background: rgba(0, 0, 0, 0.774) url(./relogio.png);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+
+}
+
+h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+button{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+   padding: 0px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+#iniciar{
+    background-color: rgba(7, 134, 7, 0.993);
+    color: aliceblue;
+}
+
+#parar{
+    background-color: brown;
+    color: aliceblue;
+}
+
+#resetar{
+    background-color: rgb(247, 187, 25);
+    color: aliceblue;
+
+}
